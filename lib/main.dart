@@ -26,9 +26,10 @@ class MyApp extends StatelessWidget {
               title: Text('map'),
             ),
             ListTile(
-              title: RaisedButton(
-                child: Text('Submit'),
+              title: RaisedButton.icon(
+                label: Text('Submit'),
                 onPressed: (){},
+                icon: Icon(Icons.access_time),
               )
             )
           ],
